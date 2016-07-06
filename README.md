@@ -32,3 +32,10 @@ Clone this repo
 Execute the `aplica_patches.sh` script
 
     marte tvh_qsv # sh ./aplica_patches.sh
+
+## Compile
+
+Then Compile and install your kernel as usual...
+
+    # cd /usr/src/linux
+    # make && make modules_install
