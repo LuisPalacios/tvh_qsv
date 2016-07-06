@@ -5,9 +5,12 @@ This repository is a complement for HW Accelerated transcoding via Intel QuickSy
 Migrated kernel patches mentioned [here](https://tvheadend.org/issues/3080) to kernel 4.6.3.
 
 
-## BACKUP FIRST
+# WARNING! and BACKUP FIRST
 
-Be careful, this is "touching" your kernel, so I would backup it first :-)
+Be careful, this material is "touching" your kernel, so I would backup it first and
+you need to know that IT's NOT FIXING THE PROBLEM with HW acceleration yet, I mean
+that after appliying these patches to the kernel It is not working. So, I'm still
+doing tests...
 
 Backup the i915 directory
 
