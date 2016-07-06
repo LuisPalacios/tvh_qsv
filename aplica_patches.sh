@@ -1,11 +1,8 @@
 
 #!/bin/bash
-
-export DIR=/tmp/i915-kernel4.6.3-patches
-mkdir -p ${DIR}
-cd ${DIR}
-wget https://github.com/LuisPalacios/tvh_qsv/raw/master/i915-kernel4.6.3-patches.tgz
+#
 if [ -f i915-kernel4.6.3-patches.tgz ]; then
+  DIR=`pwd`
   tar xvfz i915-kernel4.6.3-patches.tgz
 
   cd /usr/src/linux
