@@ -1,7 +1,17 @@
-# tvh_qsv
-Complement for HW Accelerated transcoding via Intel QuickSync Video to tvheadend
+# Tvheadend HW Accelerated transcoding vía Intel QuickSync Video
+
+This repository is a complement for HW Accelerated transcoding via Intel QuickSync Video to tvheadend.
 
 Migrated kernel patches mentioned [here](https://tvheadend.org/issues/3080) to kernel 4.6.3.
+
+
+## BACKUP FIRST
+
+Be careful, this is "touching" your kernel, so I would backup it first :-)
+
+Backup the i915 directory
+
+    cp -R /usr/src/linux/drivers/gpu/drm/i915/ /usr/src/backup-i915
 
 ## Instalation
 
